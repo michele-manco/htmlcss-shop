@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  position: relative;
+
+
+}
+
+.cerca{
+  position: absolute;
+  top:0
+  left:20px;
+  margin: auto;
+  text-align: center;
+}
+h1{
+  margin: auto;
+  text-align: center;
+  color: orange;
+  font-family: 'Dosis', sans-serif;
+
+}
+.celle{
+  position: relative;
+  display: inline-block;
+  border: 1px solid grey;
+}
+.celle .disc{
+  position: absolute;
+  top:0;
+  right:0;
+  border:1px solid orange;
+  background-color: orange;
+  border-radius:10%;
+  border-width: 1px;
+  font-size: 25px;
+  color: black;
+}
+.celle .super{
+  background-color: red;
+}
+main{
+  width: 1230px;
+  margin:auto;
+}
+.cuore{
+  color:red;
+  position: absolute;
+  bottom: 0;
+  left: 200px;
+  font-size: 35px;
+  visibility: hidden;
+}
+.celle:hover .cuore
+{
+  visibility: visible;
+}
+h3{
+  margin: auto;
+  text-align: center;
+  color: orange;
+  font-family: 'Dosis', sans-serif;
+
+}
